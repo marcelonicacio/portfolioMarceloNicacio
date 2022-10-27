@@ -1,0 +1,26 @@
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+
+    list-style: none;
+    border: 1px solid #fff;
+    position: relative;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: dotted;
+    
+}
+
+li {
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.8rem;
+    
+}

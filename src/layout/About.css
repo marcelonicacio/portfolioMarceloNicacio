@@ -1,0 +1,40 @@
+#About {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 65vw;
+    padding: 40px;
+}
+
+.aboutMe {
+
+}
+
+#skills {
+display: flex;
+flex-direction: row;
+
+}
+
+
+.name {
+    background-color: #d9f24f;
+    color: #000;
+}
+
+#About h1 {
+    font-size: 3.5rem;
+}
+
+#About h2{
+    color: #000;
+    font-size: 2.3rem;
+    margin: 0 20px 20px ;
+}
+
+#About p {
+    margin: 20px;
+    font-size: 1.5rem;
+    color: #fff;
+}

@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body {  
+  background: linear-gradient(-90deg, #deb0df 10%, #a16bfe 80%);
+}
