@@ -19,15 +19,16 @@
 }
 
 
-.yellowBox h1{
+.yellowBox h1 {
     background-color: #d9f24f;
     color: #000;
     transform: rotate(-3deg);
     padding: 10px;
+    font-size: 3.5rem;
 
 }
 
-h1,h2 {
+.intro h2 {
     font-size: 3.5rem;
     color: #fff;
 }
@@ -60,6 +61,11 @@ h1,h2 {
                 0 0 90px #fff
     ;
 animation: float 3.5s ease-in-out infinite
+}
+
+.ball p {
+    font-size: 5rem;
+    color: #DEB0DF;
 }
 
 @keyframes float{

@@ -1,40 +1,133 @@
 #About {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 100vh;
-    width: 65vw;
     padding: 40px;
+    width: 100vw;
+    
 }
 
+.navAbout {
+    position: relative;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 0.8rem;
+    text-align: start;
+}
 .aboutMe {
-
+    padding: 0 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #fff;
+    width: 35vw;
+    height: 90vh;
+    color: #fff;
 }
 
-#skills {
-display: flex;
-flex-direction: row;
-
+.title {
+    padding: 40px 0 0 0;
+    display: flex;
+    font-size: 2rem;
+    color: #fff;
 }
 
+.aboutSkills {
+    margin-top: 30px;
+    border: 1px solid #fff;
+    width: 50vw;
+    height: 49vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px 0 40px;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.navSkills {
+    position: relative;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 0.8rem;
+    text-align: start;
+}
+.ski {
+    display: flex;
+
+}
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.aboutSkills ul {
+    display: flex;
+   align-items: center;
+    list-style: none;
+    gap: 10px;
+    padding-top:25px ;
+    
+}
+
+.aboutSkills li:hover {
+
+color: #000;
+}
+
+.chave {
+    font-size: 7rem;
+    margin: 0 25px;
+    color: #fff;
+}
+
+.aboutSkills li {
+    font-size: 3.5rem;
+    color: #fff;
+    cursor: pointer;
+    transition: color .5s;
+    text-align: center;
+    
+}
 
 .name {
+    display: flex;
+    align-items: center;
     background-color: #d9f24f;
     color: #000;
+    margin: 0 5px;
+    padding: 0 5px;
 }
 
-#About h1 {
-    font-size: 3.5rem;
-}
 
-#About h2{
-    color: #000;
-    font-size: 2.3rem;
-    margin: 0 20px 20px ;
-}
+
 
 #About p {
-    margin: 20px;
-    font-size: 1.5rem;
+    margin: 10px;
+    font-size: 1rem;
     color: #fff;
+}
+
+#About h2 {
+    font-size: 1.6rem;
+}
+
+#About h3 {
+    font-size: 1.5rem
+}
+
+#me h4{
+    display: flex;
+    color: #fff;
+    font-size: 7rem;
+    position: relative;
+    right: 500px;
+    top: 230px;
+    cursor: pointer;
 }

@@ -1,0 +1,130 @@
+#Projects {
+    height: 100vh;
+    padding: 40px;
+    width: 100vw;
+    align-items: center;
+}
+
+#Projects h2 {
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+#Projects h3 {
+    font-size: 15rem;
+    font-weight: 100;
+}
+
+.nameProj {
+    background-color: #d9f24f;
+    color: #000;
+}
+.boxProj {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navProj {
+    position: relative;
+    padding: 10px 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 0.8rem;
+    text-align: start;
+}
+
+.proj {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 25vw;
+    border: 1px solid #fff;
+    bottom: 20px;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    transition: z-index .5s;
+   
+    
+}
+
+#Projects hr {
+    margin: 20px 0;
+}
+.project1 {
+    top: 100px;
+    z-index: 4;
+    background-color: #A16AFE;
+    
+}
+.project2 {
+    background-color: #AC7AF7;
+    left: -130px;
+    top: 20px;
+    z-index: 3;
+}
+.project3 {
+    background-color:#C08FEE;
+    top: 50px;
+    left: -200px;
+    z-index: 2;
+}
+.project4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D2A3E5;
+    left: -260px;
+    top: 100px;
+    z-index: 1;
+    
+}
+
+.plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.plus h2 {
+    font-size: 18rem;
+}
+
+.plus h2:hover {
+    font-size: 20px;
+}
+
+
+.proj:hover {
+    z-index: 5;
+    
+    
+}
+.cardText {
+    margin: 20px;
+    
+}
+
+.carText p {
+    padding-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+h2 {
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+img {
+    height: 80%;
+    
+}
