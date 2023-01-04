@@ -1,0 +1,23 @@
+#theme {
+    position: relative;
+    left: 100vh;
+    padding: 5px;
+    border: 1px solid #fff;
+    font-weight: bold;
+    font-size: .7rem;
+    box-shadow: 2px 2px 5px gray;
+    background-color: #00000026;
+    transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
+  
+  }
+  
+  #theme:hover,
+  #theme:focus {
+    filter: none;
+    cursor: pointer;
+  }
+  
+  #darkMode.clicked {
+
+  filter: none !important;
+  }
