@@ -3,119 +3,53 @@ import styled from 'styled-components';
 export const ProjectsContainer = styled.div`
 
     display: flex;
-    flex-direction: column;
     height: 100vh;
-    padding: 40px;
+    padding: 30px;
     justify-content: space-around;
-    scroll-snap-align: start;
+
+    .projects {
     
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 65vw;
+        height: 80vh;
+        border: 3px solid #fff;
+        background-image:
+    linear-gradient(#ffffff39 2px, transparent 2px),
+    linear-gradient(90deg, #ffffff3f 2px, transparent 2px),
+    linear-gradient(#ffffff1e 1px, transparent 1px),
+    linear-gradient(90deg, #ffffff47 1px, transparent 1px);
+  background-size: 200px 200px, 200px 200px, 40px 40px, 40px 40px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    }
 
-h2 {
-    
-    text-align: left;
-    font-size: 2.5rem;
-    text-shadow: 2px 2px 5px #000;
-}
+    img {
+        width: 20%
+    } 
+    .projBox {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 97%;
+        height: 95%;
+        border: 5px solid #fff8;
+    }
 
-h3 {
-    font-size: 15rem;
-    font-weight: 100;
-}
-
-img {
-    height: 35%;  
-}
-
-hr {
-    margin: 20px 0;
-}
-
-button {
-    height: 2.5rem;
-    width: 8rem;
-    background-color: #d9f24f;
-    color: #000;
-    border: none;
-    font-size: 1.1rem;
-    cursor: pointer;
-    box-shadow: 2px 2px 5px gray;
-}
-
-a {
-    text-decoration: none;
-}
-
-.nameProj {
-    background-color: #d9f24f;
-    color: #000;
-    box-shadow: 2px 2px 5px gray;
-    text-shadow: 0px 0px 0px;
+    .projName {
+        
+        background-color: #d9f24f;
+        color: #000;
+    margin: 0 5px;
     padding: 10px;
-}
-.boxProj {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
-.navProj {
-    position: relative;
-    padding: 10px 0 0 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    font-size: 0.8rem;
-    text-align: start;
-}
+    text-shadow: 0px 0px 1px gray;
+    }
 
-.proj {
-    display: flex;
-    flex-direction: column;
-    height: 45vh;
-    width: 18vw;
-    border: 2px solid #fff;
-    bottom: 20px;
-    cursor: pointer;
-    position: relative;
-    transition: z-index .5s; 
-    box-shadow: 5px 5px 1px #fff;
-}
-
-.project4 {
-    display: flex;
-    align-items: center;
-}
-
-.cardText {
-    margin: 20px;
-    
-}
-
-.carText p {
-    padding-bottom: 20px;
-}
-
-.card {
-    display: flex;
-    height: 300px;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-
-.repositories {
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
-   margin-right: 15rem;
-   gap: 1.5rem;
-   text-shadow: 2px 2px 5px #000;
-
-   
-}
-
-.repositories a {
-    color: #000;
-}
-
+    h1 {
+    font-size: 2.6rem;
+    padding: 30px;
+    font-size: 2rem;
+    text-shadow: 1px 1px 3px #000;
+    text-align: center; 
+    }
 `

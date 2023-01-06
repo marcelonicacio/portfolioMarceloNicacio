@@ -14,7 +14,6 @@ function App() {
 
   return (
     <div>
-      <JellyBall />
         <NavBar />
         <Home />
         <About />

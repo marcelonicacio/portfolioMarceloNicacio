@@ -9,14 +9,13 @@ export const HomeContainer = styled.div`
     width: 90vw;
     margin-left: 5vw;
     border: 3px solid #fff;
-    background-image:
-    linear-gradient(#ffffff39 2px, transparent 2px),
-    linear-gradient(90deg, #ffffff3f 2px, transparent 2px),
-    linear-gradient(#ffffff1e 1px, transparent 1px),
-    linear-gradient(90deg, #ffffff47 1px, transparent 1px);
-  background-size: 200px 200px, 200px 200px, 40px 40px, 40px 40px;
-  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+   
  
+
+
+img {
+    width: 40%;
+}
 `;
 
 export const Intro = styled.div`
@@ -37,7 +36,7 @@ export const YellowBox = styled.div`
    justify-content: start;
 
 h1 {
-    background-color: #d9f24f;
+    background-color: #D9F24F;
     color: #000;
     transform: rotate(-3deg);
     padding: 10px;
@@ -46,6 +45,7 @@ h1 {
   
     
 }
+
 
 `;
 

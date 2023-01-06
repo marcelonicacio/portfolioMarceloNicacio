@@ -17,12 +17,14 @@ p {
 
 h2 {
     font-size: 2.6rem;
+    
 }
 
 
 h3 {
     font-size: 2rem;
     text-shadow: 2px 2px 5px #000;
+    
 }
 
 h4 {
@@ -43,14 +45,20 @@ h5 {
 
 img {
     width: 60%;
+   
+}
+
+.chip {
+    width: 70%;
 }
 
 
 .skills {
     margin-top: 5vh;
-    margin-right: 3vw;
+    
     height: 65vh;
     border: 3px solid #fff;
+    box-shadow: -15px 15px 1px #676668;
     background-image:
     linear-gradient(#ffffff39 2px, transparent 2px),
     linear-gradient(90deg, #ffffff3f 2px, transparent 2px),
@@ -69,11 +77,12 @@ img {
 
 .skillsChip {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    width: 40vw;
+  
 }
 .skillsList {
     list-style: georgian;
+   
 }
 
 ul {
@@ -101,19 +110,22 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin-left: 3vw;
     margin-top: 5vh;
     height: 90vh;
     width: 40vw;
-    border: 3px solid #fff;
-    background-image:
-    linear-gradient(#ffffff39 2px, transparent 2px),
-    linear-gradient(90deg, #ffffff3f 2px, transparent 2px),
-    linear-gradient(#ffffff1e 1px, transparent 1px),
-    linear-gradient(90deg, #ffffff47 1px, transparent 1px);
-  background-size: 200px 200px, 200px 200px, 40px 40px, 40px 40px;
-  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+   
   
+}
+.robo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.robo img {
+    transform: scaleX(-1);
+    
+
 }
 
 .title {
@@ -125,7 +137,8 @@ ul {
 }
 .name {
    
-   border: 3px solid #fff;
+   background-color: #d9f24f;
+   color: #000;
     margin: 0 5px;
     padding: 10px;
     text-shadow: 0px 0px 1px gray;
