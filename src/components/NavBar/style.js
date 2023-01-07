@@ -18,7 +18,7 @@ ul {
 }
 
 li {
-    padding: 7px;
+    padding: 1rem;
     cursor: pointer;
     font-size: 1.3rem;
     text-shadow: .5px .5px .7px gray;

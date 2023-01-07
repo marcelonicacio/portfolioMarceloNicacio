@@ -44,7 +44,7 @@ h5 {
 }
 
 img {
-    width: 60%;
+    width: 50%;
    
 }
 

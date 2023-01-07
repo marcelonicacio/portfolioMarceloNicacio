@@ -8,7 +8,6 @@ export const HomeContainer = styled.div`
     height: 85vh;
     width: 90vw;
     margin-left: 5vw;
-    border: 3px solid #fff;
    
  
 
@@ -24,7 +23,7 @@ export const Intro = styled.div`
 
 h2 {
     font-size: 4rem;
-  text-shadow: 2px 2px 5px #000;
+  text-shadow: 1px 1px 0px #000;
     
 }
 

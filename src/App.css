@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #fff;
+  color: #000;
   font-family: 'Roboto', sans-serif;
 }
 body {
-  background-color: #A570FB;
+  background-color: #95a5a6;
 
 }
 
@@ -15,5 +15,11 @@ a {
   color: #fff;
 }
 
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
 
 
